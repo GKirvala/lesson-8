@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: #0A22F4;
+    padding: 20px 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+    background-color: #0A22F4;
+}
+.image{
+    max-width: 97px;
+    width: 100%;
+}
+.navw{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar ul{
+    display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+}
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+button{
+    width: 160px;
+    height: 55px;
+    border-radius:28px;
+    margin-top: -25px;
+    border: none;
+    color: #171717;
+    font-weight: bold;
+    font-size: 16px;
+}
+.service{
+    margin-top: 100px;
+    margin-left: 240px;
+    padding-bottom: 50px;
+
+}
+.boxwr{
+	display: flex;
+	justify-content: space-evenly;
+	/* /* align-items: center;
+	/* flex-wrap: wrap; */
+	/* align-content: center; */
+	/* gap: 10px; */
+    /* align-content: flex-start; */
+    /* padding-right: 600px; */
+}
+.box, .boxx, .boxxx {
+    width: 50px;
+	height: 50px;
+    align-content: flex-start;
+	text-align: center;
+	font-size: 30px;
+    gap: 50px;
+    
+}
+.box:nth-child(1){
+    background-color: #F9F9F9;
+}
+.boxx:nth-child(2){
+    background-color: #0A22F4;
+}
+.boxxx:nth-child(3){
+    background-color: #F9F9F9;
+}
+.boxwr{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-right: 800px;
+}
+.articlewr{
+    max-width: 413px;
+    width: 100%;
+    display: -webkit-inline-box;
+    gap: 100px;
+}
+.slider-function{
+    padding-bottom: 138px;
+    position: relative;
+    top:-99px;
+    max-width: 707px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.slider-bullets{
+    position: absolute;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    width:50px;
+    border-radius:0;
+    box-shadow:none;
+    margin-left: 1800px;
+    margin-bottom: ;
+}
+.bullets{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:#0A22F4 ;
+    
+    
+}
+.bullets:hover{
+    cursor: pointer;
+    background-color: #0A22F4;
+}
+    
+
+
+
